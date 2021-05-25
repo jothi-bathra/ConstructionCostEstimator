@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Cement Concrete Calculator</title>
+        <!-- add icon link -->
+        <link rel = "icon" href = "https://media.istockphoto.com/vectors/rulers-and-hard-hat-vector-id1148780635?k=6&m=1148780635&s=612x612&w=0&h=ChqbLp-hd0YVdpJLlm6wjnNy-yQejdwh70sB023UpwY="
+        type = "image/x-icon">
+        <style>
+            
+            
+            body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wi.wallpapertip.com/wsimgs/27-273030_construction-hd-png-images-backgrounds.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative
+            }
+           
+            
+            
+            /* Clear floats after the columns */
+            
+        </style>
+            
+    </head>
+    <body><center>
+        <div class="heading" style="background-color: rgb(235, 220, 12); align-content: center;">
+            <h1 style="color: rgb(7, 7, 7);">CEMENT CONCRETE CALCULATION</h1></center>
+        </div>
+        <div class="row">
+            <center>
+            <div class="column"
+           
+            <h2 style="color: rgb(252, 248, 248);"> TOTAL AREA IS {{msg[0]}} m<sup>3</sup></h2></center>
+            <center>
+            <table align="center" border=2 style="color: rgb(252, 248, 248);">
+                <tr>
+                    <td><b>MATERIAL</b></td>
+                    <td><b>QUANITY</b></td>
+                </tr>
+                <tr>
+                    <td>CEMENT</td>
+                    <td>{{msg[1]}} bags or {{msg[2]}} Kg</td>
+                </tr>
+                <tr>
+                    <td>SAND</td>
+                    <td>{{msg[3]}} Kg or {{msg[4]}} tons</td>
+                </tr>
+                <tr>
+                    <td>AGGREGATE</td>
+                    <td>{{msg[5]}} kg or {{msg[6]}} tons</td>
+                </tr>
+            </table>
+        </div>
+        <div class="column">
+            <center>
+                <embed src={{ piech|safe }} />
+            </center>
+        </div>
+
+    </center>
+</div>
+    </body>
+</html>
